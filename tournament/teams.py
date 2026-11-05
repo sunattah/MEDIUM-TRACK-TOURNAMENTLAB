@@ -3,6 +3,8 @@ def normalize_name(name: str) -> str:
 
 ## strip() then casefold(), return
 
-    name_list = name.strip().casefold()
-    return name_list
-    print(normalize_name("   sunday  "))
+    return    name.strip().casefold()
+
+
+if __name__ == "__main__":
+        print(normalize_name("   sunday  "))
