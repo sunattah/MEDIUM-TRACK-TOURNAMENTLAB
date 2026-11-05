@@ -1,6 +1,8 @@
 def normalize_name(name: str) -> str:
 
-team_id = {"name":
 
+## strip() then casefold(), return
 
-}
+name_list = name.strip().casefold()
+return name_list
+print(normalize_name("   sunday  "))
