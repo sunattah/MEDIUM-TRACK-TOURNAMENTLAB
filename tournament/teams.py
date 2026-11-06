@@ -17,3 +17,5 @@ def find_team_by_name(league: dict, name: str) -> dict | None:
     return {league: {}, name: "name"}, None
 def generate_team_id(league: dict) -> str:
     return league, "name"
+def register_team(league: dict, name: str) -> tuple[bool, str]:
+    
