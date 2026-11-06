@@ -11,3 +11,5 @@ if __name__ == "__main__":
 
 def make_team(team_id: str, name: str) -> dict:
       return {team_id: "ID", name : "name"}
+def validate_team_name(name: str) -> str | None:
+    return None, f"Error finding {name}"
